@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Protest+Riot&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+#background{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./assets/image/bmw.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#inputcontainer{
+    width: 370px;
+    height: 250px;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 2px -2px 4px lightskyblue;
+}
+input{
+    width: 150px;
+    height: 26px;
+    margin: 13px;
+    text-shadow:2px 2px 5px black;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-family: "Protest Riot", sans-serif;
+    letter-spacing: 3px;
+}
+#play:hover
+{
+    background-color:lightgreen;
+}
+#stop:hover
+{
+    background-color:red;
+}
+h2{
+    color:lightskyblue;
+    font-family: "Protest Riot", sans-serif;
+}
